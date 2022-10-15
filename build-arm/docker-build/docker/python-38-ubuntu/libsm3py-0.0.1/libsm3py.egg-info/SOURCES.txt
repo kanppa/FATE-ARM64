@@ -1,0 +1,11 @@
+Cargo.toml
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+libsm3py.egg-info/PKG-INFO
+libsm3py.egg-info/SOURCES.txt
+libsm3py.egg-info/dependency_links.txt
+libsm3py.egg-info/not-zip-safe
+libsm3py.egg-info/top_level.txt
+src/lib.rs

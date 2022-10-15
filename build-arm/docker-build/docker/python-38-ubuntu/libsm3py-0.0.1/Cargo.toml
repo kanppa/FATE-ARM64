@@ -1,0 +1,25 @@
+[package]
+name = "libsm3py"
+version = "0.0.1"
+authors = ["weiwee <wbwmat@gmail.com>"]
+edition = "2018"
+
+[package.metadata.libsm3py]
+requires-python = ">=3.5"
+classifier = [
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[dependencies]
+libsm = "0.4"
+
+[lib]
+name = "pylibsm3"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.13.0"
+features = ["extension-module", "abi3", "abi3-py36"]
